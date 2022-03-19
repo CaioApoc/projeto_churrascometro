@@ -1,0 +1,52 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px; /*largura da div*/
+    margin: auto; /*centralizar a div na tela*/
+    background-color: rgb(212, 184, 60);
+    padding:20px ; /*espaco entre o conteudo e a borda*/
+    border-radius: 10px;
+    
+    /**/
+}
+
+h1{
+    margin-top: 0px; /*o h1 ja tem dentro dele um espaco, assim tirando ele fica mais perto do topo da pagina*/
+
+}
+
+input{ /*ja chamei o input geral pq assim ja faco em todos os inputs*/
+    width: 100%; /*ou seja, ele vai pegar 100% do tamanho da largura do pai que é a div container*/
+    display: block; /*usamos para nao ter nada do lado dele, fica um em cima do outro*/
+    padding: 5px; /*para dar espaco nos placeholders*/
+    box-sizing: border-box; /*A box vai ser 100% contando pa0dding e borda, pra ficar tudo dentro da div e com o mesmo espacamento dos lados*/
+    margin-bottom: 10px; /*coloca margem para baixo para ter espaco entre os inputs*/
+    border-radius: 5px;
+    background-color: rgb(248, 248, 163);
+}
+
+#botao{
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(248, 248, 163);
+
+}
+#botao:hover{
+    background-color: white;
+}
+input:hover{
+    background-color: white;
+}
+#resultado{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+
+
+
+/*Como centralizar o botao calc / pq que o border-radius deixou meio estranho os inputs*/
